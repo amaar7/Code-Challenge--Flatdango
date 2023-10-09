@@ -1,4 +1,5 @@
 let tickets;
+  
 
  function fetchAll(){
     fetch(' http://localhost:3000/films')
@@ -18,7 +19,6 @@ function fetchMovieDetails(movie) {
       })
       .catch((error) => console.log(error));
   }
-
 // function to get the movie
 
     function fetchmovie(movies){
@@ -42,6 +42,7 @@ movies.forEach((movie, i) =>{
    if (i === 0 ) {
     // Display the first movie by default
     fetchMovieDetails(movie)
+    
   }
 })
 }
