@@ -1,6 +1,5 @@
 let tickets;
 
-
  function fetchAll(){
     fetch(' http://localhost:3000/films')
     .then(res =>res.json())
@@ -122,3 +121,4 @@ function Updatedata(movie,ticketssold){
 // >>>>>>the DOM  <>>>>>>>>>>>>
 
 document.addEventListener('DOMContentLoaded',fetchAll())
+
