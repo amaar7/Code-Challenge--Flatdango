@@ -1,0 +1,128 @@
+.header img{
+    height:100px;
+    width:300px;
+    }
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    
+    body{
+        background-color: rgb(27, 4, 26);
+        color: rgb(201, 201, 67);
+        height: 100%;
+        width: 100%;
+    }
+    
+    .movies-all{
+        display: flex;
+        
+        justify-content: space-between;
+        max-width: 900px;
+        padding: 30px;
+      
+    }
+    .movies-all p{
+        cursor: pointer;
+    }
+    
+    .movie-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hr{
+        height: 1px;
+        color: rgb(9, 8, 8);
+    }
+    .movie-list p{
+        background-color: rgba(20, 16, 16, 0.807);
+        width: 100%;
+        height: 30px;
+        border-radius: 5px;
+    }
+    .movie-details img{
+    height: 400px;
+    width:400px;
+    }
+    .movie-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .movie-details p{
+        color: aliceblue;
+    }
+    span{
+        padding-left: 10px;
+        margin-bottom: 10px;
+        color: green;
+    }
+    button{
+        height:40px;
+      cursor: pointer;
+        background-color: brown;
+        color:black;
+        border-radius: 10px;
+    }
+    
+    
+    
+    
+    /* Style all font awesome icons */
+    
+      .fa {
+        padding: 20px;
+        font-size: 10px;
+        width: 10px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+      }
+      
+      /* Add a hover effect if you want */
+      .fa:hover {
+        opacity: 0.7;
+      }
+      
+      /* Set a specific color for each brand */
+      
+      /* Facebook */
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+        margin-left: 20px;
+        
+      }
+      
+      /* Twitter */
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+        margin-left: 20px;
+      }
+      .fa-instagram{
+    background-color: palevioletred;
+    color: aliceblue;
+    margin-left: 20px;
+      }
+      .fa-github{
+        background-color: aliceblue;
+        color: black;
+        margin-left: 20px;
+      }
+      .socials{
+        margin-top: 30px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    
+      }
+      .message{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+      }
